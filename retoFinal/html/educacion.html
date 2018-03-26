@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formación</title>
+  </head>
+  <body>
+    <a href="../index.html">volver</a>
+    <header>
+      <img src="../images/GOGM.svg" alt="LOGO SVG" title="LOGO" width="200px">
+      <h1>Hoja de vida</h1>
+
+    </header>
+    <h2> <b>Datos personales </b></h2>
+    <h3><em>Nombre: </em> <br> Gabriel Oswaldo Giraldo Martínez</h3>
+    <h3><em>Lugar y fecha de nacimiento: </em> <br> Medellín, 7 de marzo de 1983</h3>
+
+    <h2> <b>Enlaces de menú básico </b></h2>
+    <ul>
+      <li> <a href="../index.html"> <em>Inicio</em> </a> </li>
+      <li> <a href="educacion.html"> <em>Educación</em> </a> </li>
+      <li> <a href="experiencia.html"> <em>Experiencia</em> </a> </li>
+    </ul>
+    <h2>Educación</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>AÑO</th>
+          <th>INSTITUCIÓN</th>
+          <th>LUGAR</th>
+          <th>¿CULMINÓ?</th>
+        </tr>
+        <tr>
+          <th>2014</th>
+          <th>Universidad Nacional de Colombia </th>
+          <th>Medellín</th>
+          <th>SI</th>
+        </tr>
+        <tr>
+          <th>2010</th>
+          <th>Universidad Nacional de Colombia </th>
+          <th>Medellín</th>
+          <th>SI</th>
+        </tr>
+        <tr>
+          <th>2009</th>
+          <th>Servicio Nacional de Aprendizaje - SENA </th>
+          <th>Medellín</th>
+          <th>SI</th>
+        </tr>
+      </thead>
+    </table>
+    <h3>Agregar estudios</h3>
+
+    <form class="" action="index.html" method="post">
+      <label for="ano"> <strong>Año:</strong></label>
+      <select id="ano">
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+        <option>2003</option>
+        <option>2004</option>
+        <option>2005</option>
+        <option>2006</option>
+        <option>2007</option>
+        <option>2008</option>
+        <option>2009</option>
+        <option>2010</option>
+        <option>2011</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+      </select> <br>
+
+      <label for="institucion"> <strong>Institución: </strong> </label>
+      <input id="institucion" name="institucion"  type="text" required><br>
+
+      <label for="lugar"> <strong>Lugar:</strong> </label>
+      <textarea id="lugar" name="lugar" rows="3" cols="30"></textarea><br>
+
+      <label for="culmino">¿Culminó?:</label>
+      <input type="radio" name="culmino" value="SI">SI
+      <input type="radio" name="culmino" value="NO">NO <br>
+
+      <input type="submit" name="enviar" value="Enviar">
+    </form>
+    <footer>
+      <p><strong>E-mail: </strong> gogirald@gmail.com</p>
+      <p><strong>celular: </strong> (+57)3017687610</p>
+    </footer>
+
+  </body>
+</html>
